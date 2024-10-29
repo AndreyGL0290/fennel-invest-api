@@ -50,7 +50,7 @@ for account_id in account_ids:
 ## Usage: Get Portfolio
 ```python
 # For all account IDs
-portfolio = fennel.get_account_ids()
+account_ids = fennel.get_account_ids()
 for account_id in account_ids:
     print(account_id)
     portfolio = fennel.get_portfolio_summary(account_id)
