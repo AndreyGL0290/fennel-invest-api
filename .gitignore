@@ -1,6 +1,7 @@
 __pycache__/
 build/
 .env
+.venv/
 test*
 *.egg-info/
 *.pkl
